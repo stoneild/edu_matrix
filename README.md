@@ -1,7 +1,6 @@
 # edu_matrix
-## This is education project
-
-In this project realised some matrix operations for working with follow matrices:
+## This is an education project
+This project implements some matrix operations to work with the following matrices:
 ```
 typedef struct matrix_struct {
     double** matrix;
@@ -9,7 +8,7 @@ typedef struct matrix_struct {
     int columns;
 } matrix_t;
 ```
-## Realised follow matrix operations
+## The following matrix operations have been implemented
 - Creating matrices (create_matrix)
 ```
 int s21_create_matrix(int rows, int columns, matrix_t *result);
