@@ -1,6 +1,6 @@
-# edu_matrix
+# pet_matrix
 ## Overview
-edu_matrix is a project created for educational purposes.
+pet_matrix is a project created for educational purposes.
 
 This project implements some matrix operations in the static library s21_matrix.a in the C programming language to work with matrices of the following struct:
 ```
