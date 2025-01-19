@@ -2,7 +2,7 @@
 ## Overview
 edu_matrix is a project created for educational purposes.
 
-This project implements some matrix operations in the static library s21_matrix.a to work with matrices of the following struct:
+This project implements some matrix operations in the static library s21_matrix.a in the C programming language to work with matrices of the following struct:
 ```
 typedef struct matrix_struct {
     double** matrix;
