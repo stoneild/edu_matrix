@@ -21,7 +21,6 @@ To build and run this project, you will need the following dependencies:
 - lcov (for the coverage report);
 
 ## Makefile Targets
-
 The Makefile defines the following goals:
 - **all**, **s21_matrix.a**: Builds the s21_matrix.a library from the source files.
 - **test**: Rebuilds the project, compiles the test executable, and runs the tests.
@@ -31,7 +30,7 @@ The Makefile defines the following goals:
 - **remove**: Deletes the library and all intermediate files, cleaning the project.
 
 Use the following command to execute the targets in the src directory:
-`make [goal]`
+```make [goal]```
 
 ## The following matrix operations have been implemented
 - Creating matrices (create_matrix)
