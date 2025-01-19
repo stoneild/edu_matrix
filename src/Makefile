@@ -38,9 +38,3 @@ rebuild: remove $(LIB_NAME)
 
 remove: clean
 	-rm -f $(LIB_NAME)
-
-check_clang:
-	clang-format -style=file:../materials/linters/.clang-format -n --verbose $(SOURCES)
-
-fix_clang:
-	clang-format -style=file:../materials/linters/.clang-format -i $(SOURCES)
