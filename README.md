@@ -1,6 +1,6 @@
 # edu_matrix
 ## Overview
-edu_matrix is a project created for educational purpose.
+edu_matrix is a project created for educational purposes.
 
 This project implements some matrix operations in the static library s21_matrix.a to work with matrices of the following struct:
 ```
@@ -16,18 +16,18 @@ To build and run this project, you will need the following dependencies:
 - gcc (to compile object files);
 - ar from binutils (to create a static library);
 - ranlib from binutils (to generate an index to an archive);
-- make (to building the project from the Makefile);
-- checkmk from package check (to generating C unit tests);
-- lcov (for the coverage report);
+- make (to build the project from the Makefile);
+- checkmk from package check (to generate C unit tests);
+- lcov (for the coverage report).
 
 ## Makefile Targets
 The Makefile defines the following goals:
-- **all**, **s21_matrix.a**: Builds the s21_matrix.a library from the source files.
-- **test**: Rebuilds the project, compiles the test executable, and runs the tests.
-- **gcov_report**: Runs tests with code coverage and generates an HTML report for coverage visualization.
-- **clean**: Removes object files, coverage data, and intermediate files.
-- **rebuild**: Cleans the project and rebuilds it from scratch.
-- **remove**: Deletes the library and all intermediate files, cleaning the project.
+- **all**, **s21_matrix.a**: builds the s21_matrix.a library from the source files;
+- **test**: rebuilds the project, compiles the test executable, and runs the tests;
+- **gcov_report**: runs tests with code coverage and generates an HTML report for coverage visualization;
+- **clean**: removes object files, coverage data, and intermediate files;
+- **rebuild**: cleans the project and rebuilds it from scratch;
+- **remove**: deletes the library and all intermediate files, cleaning the project.
 
 Use the following command to execute the targets in the src directory:
 ```
