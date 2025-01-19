@@ -8,7 +8,7 @@ OBJECTS=$(SOURCES:.c=.o)
 CHECK_FILE=./tests/s21_matrix_test.check
 LFLAGS = $(shell pkg-config --cflags --libs check)
 
-.PHONY: all test gcov_report clean rebuild remove
+.PHONY: all test gcov_report clean rebuild remove check_clang fix_clang
 
 all: $(LIB_NAME)
 
