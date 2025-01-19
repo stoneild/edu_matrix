@@ -13,7 +13,7 @@ typedef struct matrix_struct {
 
 ## Dependencies
 To build and run this project, you will need the following dependencies:
-- gcc (to compile object files);
+- gcc: (to compile object files);
 - ar from binutils (to create a static library);
 - ranlib from binutils (to generate an index to an archive);
 - make (to build the project from the Makefile);
