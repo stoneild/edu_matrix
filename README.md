@@ -30,7 +30,9 @@ The Makefile defines the following goals:
 - **remove**: Deletes the library and all intermediate files, cleaning the project.
 
 Use the following command to execute the targets in the src directory:
-```make [goal]```
+```
+make [goal]
+```
 
 ## The following matrix operations have been implemented
 - Creating matrices (create_matrix)
@@ -68,5 +70,5 @@ int s21_determinant(matrix_t *A, double *result);
 int s21_inverse_matrix(matrix_t *A, matrix_t *result);
 ```
 
-##License
+## License
 This project is licensed under the GNU General Public License, as specified in the LICENSE.txt file. Please refer to the LICENSE.txt for further details.
