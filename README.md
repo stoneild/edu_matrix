@@ -71,4 +71,4 @@ int s21_inverse_matrix(matrix_t *A, matrix_t *result);
 ```
 
 ## License
-This project is licensed under the GNU General Public License, as specified in the LICENSE.txt file. Please refer to the LICENSE.txt for further details.
+This project is licensed under the GNU General Public License, as specified in the [LICENSE.txt](./LICENSE.txt) file. Please refer to the [LICENSE.txt](./LICENSE.txt) for further details.
